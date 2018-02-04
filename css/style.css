@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'ExoRegular';
+    src: url('../fonts/ExoRegular.eot');
+    src: url('../fonts/ExoRegular.eot') format('embedded-opentype'),
+    url('../fonts/ExoRegular.woff2') format('woff2'),
+    url('../fonts/ExoRegular.woff') format('woff'),
+    url('../fonts/ExoRegular.ttf') format('truetype'),
+    url('../fonts/ExoRegular.svg#ExoRegular') format('svg');
+}
+@font-face {
+    font-family: 'ExoBold';
+    src: url('../fonts/ExoBold.eot');
+    src: url('../fonts/ExoBold.eot') format('embedded-opentype'),
+    url('../fonts/ExoBold.woff2') format('woff2'),
+    url('../fonts/ExoBold.woff') format('woff'),
+    url('../fonts/ExoBold.ttf') format('truetype'),
+    url('../fonts/ExoBold.svg#ExoBold') format('svg');
+}
+@font-face {
+    font-family: 'ExoMedium';
+    src: url('../fonts/ExoMedium.eot');
+    src: url('../fonts/ExoMedium.eot') format('embedded-opentype'),
+    url('../fonts/ExoMedium.woff2') format('woff2'),
+    url('../fonts/ExoMedium.woff') format('woff'),
+    url('../fonts/ExoMedium.ttf') format('truetype'),
+    url('../fonts/ExoMedium.svg#ExoMedium') format('svg');
+}
+@font-face {
+    font-family: 'BIGJOHN';
+    src: url('../fonts/BIGJOHN.eot');
+    src: url('../fonts/BIGJOHN.eot') format('embedded-opentype'),
+    url('../fonts/BIGJOHN.woff2') format('woff2'),
+    url('../fonts/BIGJOHN.woff') format('woff'),
+    url('../fonts/BIGJOHN.ttf') format('truetype'),
+    url('../fonts/BIGJOHN.svg#BIGJOHN') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansRegular.woff2') format('woff2'),
+    url('../fonts/OpenSansRegular.woff') format('woff'),
+    url('../fonts/OpenSansRegular.ttf') format('truetype'),
+    url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+* {
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+    -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {outline:none;
+    text-decoration:none;
+    font-size:11px;
+    color:#2d2a2b ;
+}
+img {border:none;}
+html {
+    height: 100%;
+}
+
+/*For index3-1.html*/
+body {
+    height: auto !important;
+    position: relative;
+    background-color: #ffffff ;
+    font-size:13px;
+    color:black;
+    text-align: center;
+}
+.top{
+    background-color: #ffffff ;
+    width: 100%;
+    /*max-width: 1024px;*/
+    margin: auto;
+}
+.main-container {
+    background-color: #e1e1e1;
+    background-size: auto;
+    width: 100%; height: 566px;
+    margin: auto;
+}
+h1 {
+    font-size: 22px;
+    background-color: #e1e1e1;
+    line-height: 50px;
+    font-family: 'ExoRegular', sans-serif;
+}
+h2 {
+    font-size: 47px;
+    background-color: #e1e1e1;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    font-family: 'ExoRegular', sans-serif;
+}
+
+.form {
+    width: 302px; height: 311px;
+    background-color: #e1e1e1;
+    font-family: 'ExoRegular', sans-serif;
+    margin: auto;
+}
+.label {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    align-content: left;
+    margin: 0 0 14px 0;
+    font-family: 'ExoBold', sans-serif;
+    float: left;
+}
+.name {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 8px 0 8px 0;
+    box-sizing: border-box;
+    font-family: 'ExoRegular', sans-serif;
+}
+.email {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 8px 0 8px 0;
+    font-family: 'ExoRegular', sans-serif;
+    box-sizing: border-box;
+}
+.Telephone {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 8px 0 8px 0;
+    font-family: 'ExoRegular', sans-serif;
+    box-sizing: border-box
+}
+.Message {
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding-top: 8px;
+    font-family: 'ExoRegular', sans-serif;
+    box-sizing: border-box;
+}
+.Send-button {
+    width: 65px;
+    height: 30px;
+    background-color: #535353;
+    color: white;
+    display: inline-block;
+    border: none;
+    float: right;
+    font-family: 'ExoMedium', sans-serif;
+}
+.Code {
+    width: 95px;
+    height: 30px;
+    background-color: white;
+    color: gray;
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+    float: left;
+    font-family: 'ExoRegular', sans-serif;
+}
+.bottom {
+    background-color: white;
+    width: 100%; height: 78px;
+    margin: auto;
+    font-family: 'ExoRegular', sans-serif;
+    }
+.copyright {
+    font-size: 10px;
+    font-family: 'ExoMedium', sans-serif;
+    padding-left: 145px;
+    padding-top: 40px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+    color: #c0c0c0;
+}
+
+/*For index3-2.html*/
+
+body {
+    height: auto !important;
+    background-color: #f2f2f2;
+    position: relative;
+    text-align: center;
+}
+.container {
+    width: 100%; height: 420px;
+    margin: auto;
+}
+/*footer {
+    position: absolute; bottom: 0
+}*/
+
+.bouncy {
+    text-transform: uppercase;
+    font-family: 'BIGJOHN', sans-serif;
+    font-size: 25px;
+    color: #373d46;
+    margin-bottom: 25px;
+    background-color: #f2f2f2;
+}
+.rights {
+    font-family: 'OpenSansRegular', sans-serif;
+    font-size: 14px;
+    color: #81858c;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: none;
+    background-color: #f2f2f2;
+}
+.fa{
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+}
+.facebook {
+    background-color: #3b5998;
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    /*text-align: center;*/
+    display: inline-block;
+    margin-right: 12px;
+}
+.fa-twitter {
+    background-color: #26a6d1;
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.fa-linkedin {
+    background-color: #0e76a8;
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.fa-instagram {
+    background-color: #3f729b;
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.fa-vimeo {
+    background-color: #86c9ef;
+    width: 28px;
+    height: 28px;;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+
